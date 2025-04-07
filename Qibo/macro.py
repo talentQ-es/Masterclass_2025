@@ -26,6 +26,7 @@ qsplot_circuit = lambda circuit: plot_circuit(circuit, style="quantumspain")
 def plot_histogram (data_dict):
     # Extract keys and values
     x_values = list(data_dict.keys())   # estados cuanticos
+    #x_values =list(map(lambda x: r"$|$" + x + r"$\rangle$", data_dict.keys()))
     y_values = list(data_dict.values()) # las cuentas
 
     
@@ -35,9 +36,9 @@ def plot_histogram (data_dict):
     plt.xticks(x_values)  # Solo mostrar los estados cuanticos
 
     # Labels and title
-    plt.xlabel('Estados cuánticos')
+    plt.xlabel('Medidas')
     plt.ylabel('Cuentas')
-    plt.title('Frecuencias')
+    #plt.title('Frecuencias')
 
     # mostrar la gráfica
     plt.show()
