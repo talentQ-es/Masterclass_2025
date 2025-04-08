@@ -34,6 +34,7 @@ def plot_histogram (data_dict):
 
     # Customize x-axis
     plt.xticks(x_values)  # Solo mostrar los estados cuanticos
+    plt.xticks(rotation=45)
 
     # Labels and title
     plt.xlabel('Medidas')
