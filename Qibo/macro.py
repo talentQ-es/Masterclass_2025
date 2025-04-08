@@ -23,23 +23,25 @@ qsplot_circuit = lambda circuit: plot_circuit(circuit, style="quantumspain")
 
 # función para mostrar el histrograma de un dictionario
 
-def plot_histogram (data_dict):
+def plot_histogram (data_dict, b_probabilidad=False):
     # Extract keys and values
     x_values = list(data_dict.keys())   # estados cuanticos
-    #x_values =list(map(lambda x: r"$|$" + x + r"$\rangle$", data_dict.keys()))
-    y_values = list(data_dict.values()) # las cuentas
+    y_values = list(data_dict.values()) # las cuentas o probabilidades
 
     
     plt.bar(x_values, y_values, edgecolor='none', alpha=0.7)
 
     # Customize x-axis
     plt.xticks(x_values)  # Solo mostrar los estados cuanticos
+    plt.xticks(rotation=45)
 
     # Labels and title
     plt.xlabel('Medidas')
-    plt.ylabel('Cuentas')
-    #plt.title('Frecuencias')
-
+    if (b_probabilidad):
+        plt.ylabel('Probabilidades')
+    else:
+        plt.ylabel('Cuentas')
+   
     # mostrar la gráfica
     plt.show()
 
