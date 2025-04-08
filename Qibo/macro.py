@@ -44,7 +44,6 @@ def plot_histogram (data_dict):
     plt.show()
 
 def pinta_circuito_mpl(qcircuit):
-    from qiskit import QuantumCircuit
     return QuantumCircuit.from_qasm_str(qcircuit.to_qasm()).draw('mpl',style='iqp')
 
 
@@ -53,7 +52,5 @@ def draw_state_Bloch(qcircuit):
 
 def draw_state_Latex(qcircuit):
     return Statevector(QuantumCircuit.from_qasm_str(qcircuit.to_qasm())).draw('Latex')
-
-
 
 
