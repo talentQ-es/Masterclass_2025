@@ -2,7 +2,7 @@
 
 - Paso 1. Crea un *entorno* de Conda llamado, por ejemplo,  "my_env"
 ```bash
-conda create -n my_env python=3.11
+conda create -n my_env python=3.11 jupyter
 ```
 
 - Paso 2.Ve al directorio que contiene el cuaderno Masterclass_2025.ipynb y activa el entorno de Conda creado 
