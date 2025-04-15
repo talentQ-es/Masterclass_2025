@@ -7,7 +7,7 @@
 conda create -n mi_entorno python=3.11 jupyter
 ```
 
-- Paso 2.Ve al directorio que contiene el cuaderno Masterclass_2025.ipynb y activa el entorno de Conda creado 
+- Paso 2. Activa el entorno de Conda creado 
 ```bash
 conda activate mi_entorno
 ```
@@ -17,9 +17,9 @@ conda activate mi_entorno
 pip install -r requirements.txt
 ```
 
-- Paso 4. En el directorio que contiene el cuaderno Masterclass_2025.ipynb escribe. 
+- Paso 4. Escribe
 ```bash
 jupyter notebook
 ```
 
-- Paso 5. Haz click en el cuaderno Masterclass_2025.ipynb
+- Paso 5. Navega y haz click en el cuaderno Masterclass_2025.ipynb
