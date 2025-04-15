@@ -16,7 +16,9 @@ pip install qiskit
 pip install qibo
 ```
 
-- Paso 4. En el directorio que contiene el cuaderno Masterclass_2025.ipynb escribte
+- Paso 4. En el directorio que contiene el cuaderno Masterclass_2025.ipynb escribe. 
 ```bash
 jupyter notebook
 ```
+
+- Paso 5. Haz click en el cuaderno Masterclass_2025.ipynb
