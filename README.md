@@ -15,6 +15,7 @@ conda activate mi_entorno
 - Paso 3. Instala los paquetes en el entorno de Conda
 ```bash
 pip install qiskit
+pip install matplotlib
 pip install qibo
 ```
 
