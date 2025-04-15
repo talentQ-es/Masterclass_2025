@@ -5,9 +5,9 @@
 conda create -n my_env python=3.11
 ```
 
-- Paso 2. Activa el entorno de Conda  
+- Paso 2.Ve al directorio que contiene el cuaderno Masterclass_2025.ipynb y activa el entorno de Conda creado 
 ```bash
-conda acitvate my_env
+conda aciyvate my_env
 ```
 
 - Paso 3. Instala los paquetes en el entorno de Conda
