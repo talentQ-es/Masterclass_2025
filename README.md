@@ -14,9 +14,7 @@ conda activate mi_entorno
 
 - Paso 3. Instala los paquetes en el entorno de Conda
 ```bash
-pip install qiskit
-pip install matplotlib
-pip install qibo
+pip install -r requirements.txt
 ```
 
 - Paso 4. En el directorio que contiene el cuaderno Masterclass_2025.ipynb escribe. 
