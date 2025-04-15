@@ -1,6 +1,6 @@
 ## Repositorio para el material de la Masterclass TalentQ 2025 
 
-Step 1. Create a Conda environment called "my_env"
+Step 1. Create a Conda *environment* called "my_env"
 
 conda create -n my_env python=3.11
 
