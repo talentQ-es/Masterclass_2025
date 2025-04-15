@@ -15,3 +15,8 @@ conda activate my_env
 pip install qiskit
 pip install qibo
 ```
+
+- Paso 4. En el directorio que contiene el cuaderno Masterclass_2025.ipynb escribte
+```bash
+jupyter notebook
+```
