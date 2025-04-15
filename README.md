@@ -12,5 +12,6 @@ conda activate my_env
 
 - Paso 3. Instala los paquetes en el entorno de Conda
 ```bash
-pip install -r requirements.txt
+pip install qiskit
+pip install qibo
 ```
