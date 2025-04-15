@@ -2,7 +2,7 @@
 
 -  Paso 0. Clona o descárgate el repositorio en un directorio nuevo.  
 
-- Paso 1. Desde una terminal, crea un *entorno* de Conda llamado, por ejemplo,  "mi_entorno"
+- Paso 1. Desde una terminal, crea un *entorno* de Conda llamado, por ejemplo,  *mi_entorno*
 ```bash
 conda create -n mi_entorno python=3.11 jupyter
 ```
