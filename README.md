@@ -1,13 +1,15 @@
 ## Repositorio para el material de la Masterclass TalentQ 2025 
 
-- Paso 1. Crea un *entorno* de Conda llamado, por ejemplo,  "my_env"
+-  Paso 0. Clona o descárgate el repositorio en un directorio nuevo.  
+
+- Paso 1. Desde una terminal, crea un *entorno* de Conda llamado, por ejemplo,  "mi_entorno"
 ```bash
-conda create -n my_env python=3.11 jupyter
+conda create -n mi_entorno python=3.11 jupyter
 ```
 
 - Paso 2.Ve al directorio que contiene el cuaderno Masterclass_2025.ipynb y activa el entorno de Conda creado 
 ```bash
-conda activate my_env
+conda activate mi_entorno
 ```
 
 - Paso 3. Instala los paquetes en el entorno de Conda
